@@ -30,7 +30,7 @@ sql = "SELECT * FROM student ;"
 
 
 #db = connection.connect(host="localhost", database="my_db", user="root", password="Root@123",  use_pure=True) 
-db = connection.connect(host='127.0.0.1', user="root",   password ="Root@123", database="my_db" , auth_plugin='mysql_native_password')
+db = connection.connect(host='127.0.0.1', user="User_name",   password ="db_password", database="databse_name" , auth_plugin='mysql_native_password')
 
 
 # In[5]:
